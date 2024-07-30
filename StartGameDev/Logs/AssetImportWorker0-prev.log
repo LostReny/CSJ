@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pt' Physical Memory: 16149 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GAME/UNITY/CSJ/StartGameDev
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58503
+Successfully changed project path to: D:/GAME/UNITY/CSJ/StartGameDev
+D:/GAME/UNITY/CSJ/StartGameDev
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GAME/UNITY/CSJ/StartGameDev/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4074 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000740 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1586 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 1.784200 ms (FindLiveObjects: 0.080000 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.631100 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_CHARACTERS_PARTS_V0.3.1
+  artifactKey: Guid(d51b3ca064f7ac14683fb14e561a42b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_CHARACTERS_PARTS_V0.3.1 using Guid(d51b3ca064f7ac14683fb14e561a42b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e83221d4997d57296e6c2e59d3f14d') in 0.066775 seconds 
+  Import took 0.068503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899421 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2
+  artifactKey: Guid(ed334e51ec803d24ba14caec517026f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2 using Guid(ed334e51ec803d24ba14caec517026f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5299aeb092d9d4a5701604792c749b9d') in 0.047107 seconds 
+  Import took 0.082550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.388039 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET
+  artifactKey: Guid(690edc22d26a9f64581b241c71006851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET using Guid(690edc22d26a9f64581b241c71006851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf362887cab71630bd27e5e21857acb') in 0.050834 seconds 
+  Import took 0.088483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026158 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339fb993ca8627952777d100311aa2db') in 0.209881 seconds 
+  Import took 0.211731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.288256 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128518a6f00130190fe8319b04376a1d') in 0.139599 seconds 
+  Import took 0.218361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.458500 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695c382b90304952d4ad8647f0561f9a') in 0.114660 seconds 
+  Import took 0.116790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.760801 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06181a7b06e14d1550763d71bf7d0c53') in 0.096234 seconds 
+  Import took 0.113561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.680758 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35238873283d423951dba9a273ca2c5a') in 0.108008 seconds 
+  Import took 0.153048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.347723 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47346635bb946841b26daeea457c9ae6') in 0.095883 seconds 
+  Import took 0.097803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 398.060043 seconds.
+  path: Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png
+  artifactKey: Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/SUNNYSIDE_WORLD_ASSETS_V0.2/TILESET/SunnysideWorld_Tileset_V0.1.png using Guid(8f9f6e3f9e335fe47a3ed0065ee18d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b32f05ae8596345534a482eaeaf77') in 5.473664 seconds 
+  Import took 5.479213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.911956 seconds.
+  path: Assets/Assets/Sprites/Tileset/Tilemap/Tileset.prefab
+  artifactKey: Guid(83a1523c9314c184ca02cd68bd04449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sprites/Tileset/Tilemap/Tileset.prefab using Guid(83a1523c9314c184ca02cd68bd04449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff2209d6e4bd3b927dd9b48ae768871') in 0.129560 seconds 
+  Import took 0.133041 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 1.602800 ms (FindLiveObjects: 0.087000 ms CreateObjectMapping: 0.025800 ms MarkObjects: 1.476200 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
