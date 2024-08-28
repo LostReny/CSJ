@@ -7,8 +7,13 @@ public class Player : MonoBehaviour
     [Header("Velocidade player")]
     public float speed;
     private Rigidbody2D rig;
-    private Vector2 direction;
+    private Vector2 _direction;
 
+    public Vector2 direction
+    {
+        get { return _direction; }
+        set { _direction = value; }
+    }
 
     public void Start()
     {
@@ -17,11 +22,11 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     public void FixedUpdate()
     {
-        rig.MovePosition(rig.position + direction * speed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + _direction * speed * Time.fixedDeltaTime);
     }
 }
