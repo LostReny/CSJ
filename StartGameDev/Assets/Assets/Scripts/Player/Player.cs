@@ -22,11 +22,32 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
-        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        Inputs();
+        OnRun();
     }
 
     public void FixedUpdate()
     {
+        Movement();
+    }
+
+    #region Movement
+
+    private void Inputs()
+    {
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+    }
+
+    private void Movement()
+    {
         rig.MovePosition(rig.position + _direction * speed * Time.fixedDeltaTime);
     }
+
+    private void OnRun()
+    {
+
+    }
+
+    
+    #endregion
 }
