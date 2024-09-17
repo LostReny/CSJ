@@ -6,6 +6,10 @@ public class Player : MonoBehaviour
 {
     [Header("Velocidade player")]
     public float speed;
+    public float runSpeed;
+
+    private float initialSpeed;
+    private bool _isRunning; 
     private Rigidbody2D rig;
     private Vector2 _direction;
 
@@ -15,9 +19,16 @@ public class Player : MonoBehaviour
         set { _direction = value; }
     }
 
+    public bool isRunning
+    {
+        get { return _isRunning; }
+        set { _isRunning = value; }
+    }
+
     public void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        initialSpeed = speed;
     }
 
     public void Update()
@@ -45,7 +56,16 @@ public class Player : MonoBehaviour
 
     private void OnRun()
     {
-
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = runSpeed;
+            isRunning = true;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = initialSpeed;
+            isRunning = false;
+        }
     }
 
     

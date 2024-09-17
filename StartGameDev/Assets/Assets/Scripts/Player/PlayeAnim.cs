@@ -18,7 +18,17 @@ public class PlayeAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.direction.sqrMagnitude > 0) 
+        OnMoveAnim();
+        OnFlipAnim();
+        OnRunAnin();
+        
+    }
+
+    #region Movement
+
+    public void OnMoveAnim()
+    {
+        if (player.direction.sqrMagnitude > 0)
         {
             anim.SetInteger("transition", 1);
         }
@@ -26,14 +36,30 @@ public class PlayeAnim : MonoBehaviour
         {
             anim.SetInteger("transition", 0);
         }
+    }
 
+    public void OnRunAnin()
+    {
+        if (player.isRunning == true)
+        {
+            anim.SetInteger("transition", 2);
+        }
+        else return;
+    }
+    #endregion
+
+    #region Flip
+    public void OnFlipAnim()
+    {
         if (player.direction.x > 0)
-        { 
-            transform.eulerAngles = new Vector2(0,0);
+        {
+            transform.eulerAngles = new Vector2(0, 0);
         }
         else if (player.direction.x < 0)
         {
             transform.eulerAngles = new Vector2(0, 180);
         }
     }
+
+    #endregion
 }
