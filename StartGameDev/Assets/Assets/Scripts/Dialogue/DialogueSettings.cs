@@ -50,6 +50,17 @@ public class BuildEditor : Editor
         s.profile = ds.speakerSprite;
         s.sentence = l;
 
+        if(GUILayout.Button("Create Dialogue"))
+        {
+            if(ds.sentence != "")
+            {
+                ds.dialogues.Add(s);
+
+                ds.speakerSprite = null;
+                ds.sentence = "";
+            }
+        }
+
 
     }
 }
