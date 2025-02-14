@@ -17,6 +17,41 @@ public class DialogueControl : MonoBehaviour
 
     // variaveis de controle
     private bool isShowing; //se janela está visivel
-                         
+    private int index; //usado para laço de repetição - quantidade de texto dentro de uma fala
+
+    private string[] sentences;
+
+
+    private void Start()
+    {
+        
+    }
+
+
+    IEnumerator TypeSentence()
+    {
+        foreach (char letter in sentences[index].ToCharArray()) 
+        {
+            speakText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }   
+    }
+
+    public void NextSentence()
+    {
+
+    }
+
+    public void Speak(string[] txt)
+    {
+        if (!isShowing)
+        {
+            dialogueObject.SetActive(true);
+            sentences = txt;
+            StartCoroutine("TypeSentence");
+
+            isShowing = true;
+        }
+    }
 
 }
