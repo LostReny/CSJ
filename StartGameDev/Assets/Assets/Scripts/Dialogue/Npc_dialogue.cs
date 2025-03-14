@@ -4,10 +4,41 @@ using UnityEngine;
 
 public class Npc_dialogue : MonoBehaviour
 {
+    
     public float dialogueRange;
 
     public LayerMask playerLayer;
 
+    public DialogueSettings dialogues;
+
+    private List<string> sentences = new List<string>();
+    
+    private bool playerHit;
+
+
+    private void Start()
+    {
+        GetNPCDialogues();
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H) && playerHit == true)
+        {
+            DialogueControl.instance.Speak(sentences.ToArray());
+        }
+    }
+
+    private void GetNPCDialogues()
+    {
+        //acessando a lista, com o numero que tem dentro dessa lista
+
+        for(int i = 0; i < dialogues.dialogues.Count; i++)
+        {
+            sentences.Add(dialogues.dialogues[i].sentence.portuguese);
+        }
+    }
 
     private void FixedUpdate()
     {
@@ -20,10 +51,12 @@ public class Npc_dialogue : MonoBehaviour
 
         if (hit != null)
         {
-            Debug.Log("colisão");
+            playerHit = true;
         }
         else
         {
+            playerHit = false;
+            DialogueControl.instance.dialogueObject.SetActive(false);
             return;
         }
     }

@@ -21,6 +21,14 @@ public class DialogueControl : MonoBehaviour
 
     private string[] sentences;
 
+    //singleton?
+    public static DialogueControl instance;
+
+    //awake é chamado antes de qq start
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {

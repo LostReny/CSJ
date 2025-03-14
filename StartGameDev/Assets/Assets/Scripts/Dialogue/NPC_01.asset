@@ -19,7 +19,7 @@ MonoBehaviour:
   - actorName: Peter
     profile: {fileID: -8091321643688609963, guid: a5ff07211c18981468cdcdc739792b8e, type: 3}
     sentence:
-      portuguese: "Ol\xE1"
+      portuguese: "Ol\xE1 Peter !!"
       english: Hello
       spanish: Hola
   - actorName: Player
