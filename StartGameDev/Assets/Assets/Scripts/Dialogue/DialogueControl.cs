@@ -16,15 +16,15 @@ public class DialogueControl : MonoBehaviour
     public float typingSpeed; // velocidade da fala
 
     // variaveis de controle
-    private bool isShowing; //se janela está visivel
-    private int index; //usado para laço de repetição - quantidade de texto dentro de uma fala
+    private bool isShowing; //se janela estï¿½ visivel
+    private int index; //usado para laï¿½o de repetiï¿½ï¿½o - quantidade de texto dentro de uma fala
 
     private string[] sentences;
 
     //singleton?
     public static DialogueControl instance;
 
-    //awake é chamado antes de qq start
+    //awake ï¿½ chamado antes de qq start
     private void Awake()
     {
         instance = this;
@@ -47,7 +47,22 @@ public class DialogueControl : MonoBehaviour
 
     public void NextSentence()
     {
-
+        if(speakText.text == sentences[index])
+        {
+            if(index < sentences.Length - 1)
+            {
+                index++;
+                speakText.text = "";
+                StartCoroutine("TypeSentence");
+            }
+            else
+            {
+                speakText.text = "";
+                index = 0;
+                dialogueObject.SetActive(false);
+                sentences = null;
+            }
+        }
     }
 
     public void Speak(string[] txt)

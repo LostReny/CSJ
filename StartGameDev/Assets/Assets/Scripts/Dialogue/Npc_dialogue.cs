@@ -56,7 +56,6 @@ public class Npc_dialogue : MonoBehaviour
         else
         {
             playerHit = false;
-            DialogueControl.instance.dialogueObject.SetActive(false);
             return;
         }
     }
